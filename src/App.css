@@ -1,0 +1,62 @@
+/* General Styling */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 40px;
+  text-align: left;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+/* Theme styles */
+.light {
+  background-color: white;
+  color: black;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+/* Counter and Timer styles */
+.counter-controls, .timer-controls {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #ddd;
+}
